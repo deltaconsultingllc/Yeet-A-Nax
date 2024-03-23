@@ -86,6 +86,19 @@ At the top of the .ahk file, there are a few settings that can be used.  Each wi
 
 - Add capability to manage other Roblox instances performing hatching, star gazing, and throwing while keeping all windows active
 
+## FAQ
+
+#### Can I run other Roblox instances in the background (i.e. alts) to do other activities?
+
+Short answer - currently, no.  Currently, the script forces the window to be in focus so that it can "see" the text\colors and to move the system mouse to click.  If you ran other instances, you would not be able to switch between seemlessly and likely they would time out due to inactivity.  In the roadmap section, part of the plan is to make this script multi-window aware and then task switch between multiple Roblox instances that can be pre-configured to do other things such as hatch, star gaze, and throw.
+
+#### Will this run on mac or a tablet?
+
+Mac maybe, but I haven't tested.  You would need to install something like "Parallels" so you have a windows instance within the mac environment.  Tablets are a no go.  Theoretically possible on android tablet but I'm not familiar enough with Android development to do it.
+
+#### Will I get banned?  Is this against TOS?
+
+It is unlikely that this can be detected because the Roblox window is manipulated through the same exact means...mouse clicks.  There are "hacking environments" out there that can exploit the game by injecting actions into the running code.  This is NOT what this script does and I would avoid those exploit engines as those are very detectable\bannable.  As far as TOS, I'm not aware of it but what happens in fight club, stays in fight club.
 
 ## Known Issues
 
