@@ -33,7 +33,7 @@ A privately distributed Windows based YAF Roblox automation script for enchantin
 
 2. Move player to enchant station, select the pet you wish to enchant, and click the Purple Enchant button.
 
-![Enchant Screen](https://bit.ly/3IR1bxw)
+![Enchant Screen](https://i.imgur.com/574jagf.png)
 
 3. In VSCode, use File\Open to open the Yeet-A-Nax.ahk file.
 
@@ -43,7 +43,7 @@ A privately distributed Windows based YAF Roblox automation script for enchantin
 
 6. Choose your desired enchant and check the below boxes if you want to keep the rare enchants should you land on one before the desired.  Click OK.
 
-![Enchant Selection](https://bit.ly/43ugGFa)
+![Enchant Selection](https://i.imgur.com/oB6nQ3V.png)
 
 7. A dialog box will prompt you that the next step is to select the roblox window.  Press OK.
 
@@ -51,7 +51,7 @@ A privately distributed Windows based YAF Roblox automation script for enchantin
 
 9. Sit back and watch the DEBUG CONSOLE for status or wait until the "Found" sound plays.  I the example below, I selected Star Gazer and this is what you should see in the DEBUG CONSOLE:
 
-![DEBUG CONSOLE](https://bit.ly/3vkRPHn)
+![DEBUG CONSOLE](https://i.imgur.com/JyA4PLr.png)
 
 10. To continue enchanting, select your next pet and click the Purple Enchant button.
 
@@ -66,7 +66,7 @@ A privately distributed Windows based YAF Roblox automation script for enchantin
 - If the script is running in VSCode `Shift+F5` will stop the script
 ## Settings
 
-![Settings](https://bit.ly/3vnZkx5)
+![Settings](https://i.imgur.com/NACth2s.png)
 
 At the top of the .ahk file, there are a few settings that can be used.  Each will be explained below:
 
@@ -99,6 +99,10 @@ Mac maybe, but I haven't tested.  You would need to install something like "Para
 #### Will I get banned?  Is this against TOS?
 
 It is unlikely that this can be detected because the Roblox window is manipulated through the same exact means...mouse clicks.  There are "hacking environments" out there that can exploit the game by injecting actions into the running code.  This is NOT what this script does and I would avoid those exploit engines as those are very detectable\bannable.  As far as TOS, I'm not aware of it but what happens in fight club, stays in fight club.
+
+### I'm doing everything it says, but nothing happens in the debug window.  What could it be?
+
+One problem I have seen is that Virus programs, such as Windows Defender, might think scripts are evil.  Either disable them or make sure AHK is whitelisted.
 
 ## Known Issues
 
