@@ -104,6 +104,12 @@ It is unlikely that this can be detected because the Roblox window is manipulate
 
 One problem I have seen is that Virus programs, such as Windows Defender, might think scripts are evil.  Either disable them or make sure AHK is whitelisted.
 
+### Ctrl-Alt-F9 doesn't seem to run the script.  What gives? 
+
+It's probably a hotkey conflict.  You can also run it by using a button.  See the image below and try clicking the button surrounded by the red rectangle:
+
+![ALT RUN MODE](https://i.imgur.com/7fWc1Hi.png)
+
 ## Known Issues
 
 - The script attempts to keep the Roblox window in focus during key events.  If you attempt to multitask, the program will likely handle and or recover fine.  However, I have seen instances where I pushed the limits and the script will fail with an "Unknown Color" error and a Raid Siren sound alert.  This issue is known and will hopefully be improved upon.
